@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    color: #444;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+#header_info {
+    text-align: right;
+}
+
+#header_info_datetime {
+    margin-bottom: 15px;
+}
+
+#header_info_tel {
+    font-size: 24px;
+    color: #21A937;
+    font-weight: bold;
+    margin: 0;
+}
+
+#header_info_tel img {
+    vertical-align: middle;
+}
+
+#top {
+    background-image: url(img/top.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 947px;
+    position: relative;
+}
+
+#top_txt {
+    writing-mode: vertical-rl;
+    background: #FFFFFF;
+    height: 565px;
+    position: absolute;
+    top: 236px;
+    left: 393px;
+}
+
+#top_txt h1:last-child {
+    left: 211px;
+}
